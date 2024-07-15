@@ -85,3 +85,6 @@ The objective of this project is to build and evaluate machine learning models f
 
 - **Team**: Syndicate 12
 - **Mmebers**: Anuraag Dasari, Shambhavi Gupta, Chamilka Udugoda, Kevin Zhang, Meagan Loh
+
+## License
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
