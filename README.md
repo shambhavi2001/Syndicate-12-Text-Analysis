@@ -33,7 +33,7 @@ The objective of this project is to build and evaluate machine learning models f
 ### 6. URL Classification (Extension)
 - **Pre-processing URLs**: Removing "https://www." from the URLs to focus on the meaningful parts.
 - **Feature Extraction and Selection**: Similar steps as with the titles, using TF-IDF vectorization and chi-square feature selection.
-- **Model Testing on URLs**: The trained SVM model on titles was tested on URLs to evaluate its performance in classifying topics based on URL content.
+- **Model Testing on URLs**: The trained SVM and Random Forest models on titles was tested on URLs to evaluate its performance in classifying topics based on URL content.
 
 ## Dependencies
 
@@ -81,10 +81,14 @@ The objective of this project is to build and evaluate machine learning models f
   - Lower accuracy
   - Cheaper computation time
 
+- **Random Forest on URLs**:
+  - Slighly better accuracy than when trained on Titles
+  - Cheaper computation time
+
 ## Contributors 
 
 - **Team**: Syndicate 12
-- **Mmebers**: Anuraag Dasari, Shambhavi Gupta, Chamilka Udugoda, Kevin Zhang, Meagan Loh
+- **Mmebers**: Shambhavi Gupta, Chamilka Udugoda, Kevin Zhang, Anuraag Dasari, Meagan Loh
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
